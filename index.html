@@ -8,11 +8,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
   <script src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
   <link rel="stylesheet" href="./css/styles.css">
-  <script src="module.js"></script>
-  <script src="controller.js"></script>
+  <script src="js/app/module.js"></script>
+  <script src="js/app/config.js"></script>
+  <script src="js/controllers/inputController.js"></script>
+  <script src="js/controllers/resultController.js"></script>
+  <script src="js/services/service.js"></script>
 </head>
 <body>
   <h1>mad lib</h1>
+
+  <a href="#!/inputView">Enter some words!</a>
   <ng-view></ng-view>
 </body>
 </html>

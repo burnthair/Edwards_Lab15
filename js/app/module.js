@@ -1,1 +1,1 @@
-var app = angular.module('madModule', [ng-route]);
+var app = angular.module('madModule', ['ngRoute']);
