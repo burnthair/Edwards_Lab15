@@ -3,3 +3,110 @@ body {
   padding: 0;
   background-color: #DDD;
 }
+
+header {
+  background-color: #cf8746;
+  padding-top: 30px;
+  margin-top: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 0.2em;
+  font-size: 4em;
+  color: white;
+  text-shadow: 0 4px 10px #DDD;
+}
+
+h4 {
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #DDD;
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+a:link, a:visited {
+  color: #ddd;
+}
+
+a:hover {
+  background-color: #ad6524;
+  border-radius: 4px;
+}
+
+input {
+  margin: 8px auto;
+  width: 22%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 0.7em;
+  background-color: #989;
+  color: white;
+  padding: 4px;
+  border-radius: 8px;
+  border: 2px double #444;
+}
+
+#send-button {
+  padding: 8px;
+  background-color: #97a8E3;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+#input-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin: 20px auto;
+}
+
+#result-container {
+  width: 60%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 16px;
+}
+
+#result-container p {
+  position: relative;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.2em;
+  z-index: 1;
+}
+
+.quotes {
+  position: absolute;
+  top: -30px;
+  color: #CCC;
+  z-index: -1;
+  font-size: 8em;
+}
